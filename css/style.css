@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    height: auto;
+    padding: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav {
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: inline;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    margin-left: 1rem;
+    color: #707479;
+}
+
+.image-container {
+    display: inline;
+    margin-left: 1.5rem;
+}
+
+.image-container .menu-apps {
+    height: 2rem;
+}
+
+.image-container .foto-user {
+    border-radius: 50%;
+    height: 3rem;
+}
+
+main {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+main div {
+    width: 100Vw;
+}
+
+main div button {
+    display: inline;
+    margin: 1rem;
+    padding: 1.2rem;
+    font-size: 1.3rem;
+    border: none;
+    color: #707479;
+    border-radius: 5px;
+}
+
+main div button:hover {
+    border: solid 1px #C6C6C6;
+}
+
+main span {
+    display: block;
+    font-size: 1.3rem;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #707479;
+}
+
+main span a {
+    list-style: none;
+    color: #6488BE;
+}
+
+footer {
+    width: 100%;
+    height: 4.5rem;
+    background-color: #F2F2F2;
+    padding: 1.5rem 0;
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 0;
+}
+
+footer div {
+    flex: auto;
+}
+
+footer div ul li {
+    display: inline;
+    list-style: none;
+    margin-left: 2rem;
+}
+
+footer div ul li a {
+    text-decoration: none;
+    color: #707479;
+}
+
+.opciones-der {
+    text-align: right;
+    margin-right: 2rem;
+}
