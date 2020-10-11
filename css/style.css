@@ -46,13 +46,27 @@ header nav {
     color: #000000;
 }
 
+.icon-image {
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
 
-/* nav ul li {
-    list-style: none;
-    display: inline;
+.foto-nav {
+    background-image: url('https://lh3.googleusercontent.com/ogw/ADGmqu9N46dMAJKoo9PI1O2mCiB9kqdl0RY4hFozwSza=s32-c-mo');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
     margin-left: 1rem;
-    color: #707479;
-} */
+    cursor: pointer;
+}
 
 .image-container {
     display: inline;
@@ -68,52 +82,64 @@ header nav {
     height: 3rem;
 }
 
-main {
-    height: 80vh;
+.container {
     width: 100%;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.main-input {
+    border-radius: 25px;
+    border: solid 1px #EEEEEF;
+    width: 580px;
+    height: 4rem;
+    margin: auto;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.container-logo {
-    width: 100%;
-    position: absolute;
+.main-input input {
+    width: 85%;
+    border: none;
+    outline: none;
+}
+
+.main-input .search-icon img {
+    height: 1.4rem;
+    margin: auto;
+    padding: 1rem;
+}
+
+.micro-icons img {
+    height: 1.8rem;
+    margin: auto;
+    padding: 1rem;
+}
+
+.main-buttons {
     display: flex;
     justify-content: center;
+    margin: 2rem;
 }
 
-main div input {
-    display: block;
-    width: 100%;
-    background-color: indianred;
-}
-
-main div button {
-    display: inline;
+.main-buttons button {
     margin: 1rem;
-    padding: 1.2rem;
-    font-size: 1.3rem;
+    padding: 2rem;
     border: none;
-    color: #707479;
+    height: 3rem;
     border-radius: 5px;
-}
-
-main div button:hover {
-    border: solid 1px #C6C6C6;
-}
-
-main span {
-    display: block;
-    font-size: 1.3rem;
-    width: 100%;
-    text-align: center;
     color: #707479;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
 }
 
-main span a {
-    list-style: none;
-    color: #6488BE;
+.main-buttons button:hover {
+    border: solid 1px #C6C6C6;
+    color: #000000;
+    background-color: #F4F4F4;
 }
 
 footer {
